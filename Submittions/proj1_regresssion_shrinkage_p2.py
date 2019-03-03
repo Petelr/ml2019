@@ -87,7 +87,7 @@ plot1.set_title("Figure 1. SSE verses Lambda.")
 plot1.plot(lambda_array, sse)
 plt.xlabel("lambda")
 plt.ylabel("SSE")
-
+# plt.show()
 # Second plot
 # plotting w verses lambda
 figure2 = plt.figure(2)
